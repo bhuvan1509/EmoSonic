@@ -1,1 +1,2 @@
-EmoSonic
+EmoSonic Using LSTM Algorithm
+
