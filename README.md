@@ -59,21 +59,28 @@ CNN Layers: Extract spatial patterns from MFCC feature maps.
 TimeDistributed Flattening: Prepare CNN outputs for sequential input to LSTM.
 LSTM Layers: Capture temporal patterns in the sequence of MFCCs.
 Output Layer: Softmax activation function to classify into emotion categories (e.g., Happy, Sad, Angry).
+
 Challenges Faced:
+
 Overfitting:
 While training the model, I observed that it overfitted to the training data. This was addressed using techniques like dropout layers and data augmentation (e.g., noise addition, pitch shifting).
 Data Imbalance:
 Some emotions had fewer samples than others. To tackle this, I used techniques like oversampling and weighted loss functions.
+
 Audio Quality:
 Varying audio qualities posed challenges. Using NumPy, I normalized the extracted features across datasets to ensure uniformity.
 Outcome and Results:
 The model achieved an accuracy of 85% on the test dataset, exceeding the initial goal of 80%.
+
 Learning Experience:
+
 Technical Skills:
 I gained a deep understanding of audio processing, feature extraction techniques like MFCCs, and machine learning workflows.
 I also learned how to integrate CNNs and LSTMs effectively for tasks requiring both spatial and temporal analysis.
 NumPy and Pandas became invaluable tools for efficient numerical operations and data handling, especially for preprocessing large datasets.
+
 Soft Skills:
 Team collaboration and communication were vital during model testing and evaluation phases.
 Problem-solving and troubleshooting played a big role in overcoming technical challenges like overfitting and data quality issues.
+
 This project honed my skills in machine learning and data processing while giving me practical exposure to implementing complex models. The use of libraries like NumPy and Pandas enabled efficient handling of numerical and tabular data, which was crucial for the success of the project.
