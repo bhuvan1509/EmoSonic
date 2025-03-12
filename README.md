@@ -23,12 +23,12 @@ This project demonstrates the application of deep learning, particularly LSTM ne
 
 
 
-Speech emotion detection: CNN + LSTM ( adv of RNN)
-Speech Emotion Recognition Using Machine Learning
+**Speech emotion detection: CNN + LSTM ( adv of RNN)**
+
 For my academic project, I worked on Speech Emotion Recognition, a system designed to classify emotions like happiness, sadness, anger, and neutrality from speech signals. This project involved combining machine learning with audio signal processing to create a robust model for identifying emotions based on speech patterns.
-Objective:
+**Objective:**
 The primary goal was to build a model that could analyze audio clips and accurately recognize the speaker's emotion, which has applications in mental health, customer service, and human-computer interaction.
-Technologies and Tools Used:
+**Technologies and Tools Used:**
 Programming: Python was the primary language due to its extensive machine learning libraries.
 Audio Processing:
 Librosa for feature extraction (e.g., MFCCs, chroma features).
