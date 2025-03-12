@@ -51,9 +51,9 @@ Visualization:
 
 Matplotlib and Seaborn to analyze audio data distributions and evaluate model performance.
 
-Model Overview:
+**Model Overview:**
 
-Feature Extraction:
+**Feature Extraction:**
 
 MFCC (Mel-Frequency Cepstral Coefficients) were used as input features since they effectively capture speech characteristics. Temporal features like pitch and intensity were also modeled using derivatives of MFCCs (delta and delta-delta).
 
@@ -63,13 +63,13 @@ NumPy: Used to normalize audio features across the dataset, ensuring that values
 
 Pandas: DataFrames were used to store metadata, organize file paths, labels, and extracted features for efficient manipulation during training and testing.
 
-Type of Model:
+**Type of Model:**
 I employed a CNN-LSTM hybrid model:
 CNN layers were used to extract spatial features from the MFCC feature maps, identifying patterns like frequency bands and intensity variations.
 LSTM layers captured temporal dependencies, analyzing how audio features evolved over time to better understand emotion progression.
 
 
-Architecture:
+**Architecture:**
 
 Input Layer: MFCCs of fixed dimensions.
 
@@ -81,7 +81,7 @@ LSTM Layers: Capture temporal patterns in the sequence of MFCCs.
 
 Output Layer: Softmax activation function to classify into emotion categories (e.g., Happy, Sad, Angry).
 
-Challenges Faced:
+**Challenges Faced:**
 
 Overfitting:
 
